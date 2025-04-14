@@ -1,0 +1,21 @@
+.container{
+    background-color: antiquewhite;  
+    min-height: 100vh;
+}
+.homeContainer{
+    display: grid;
+    grid-template-columns:  1fr 1fr; 
+}
+.leftSection{
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+
+}
+.rightSection{
+    padding-top: 150px;
+}
+.intro{
+    padding-top: 10px;
+    padding-right: 220px;
+}
