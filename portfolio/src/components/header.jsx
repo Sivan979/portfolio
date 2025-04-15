@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Styles from '../styles/header.module.css';
 import Dollar from '../assets/dollar-icon.png'
 
@@ -12,9 +13,9 @@ const header = () => {
         </div>
       
         <div className={Styles.sectionContainer}>
-          <a className={Styles.section} href="">Home</a>
-          <a className={Styles.section} href="">Portfolio</a>
-          <a className={Styles.section} href="">Resume</a>
+          <Link to="/home" className={Styles.section}>Home</Link>
+          <Link to="/portfolio" className={Styles.section}>Portfolio</Link>
+          <Link to="/resume" className={Styles.section}>Resume</Link>
         </div>
       </div>
     </>
