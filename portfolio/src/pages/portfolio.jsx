@@ -16,6 +16,10 @@ import memory2 from "../assets/images/memory/memory2.png";
 import memory3 from "../assets/images/memory/memory3.png";
 import memory4 from "../assets/images/memory/memory4.png";
 
+import star1 from "../assets/images/stars/star1.jpeg";
+import star2 from "../assets/images/stars/star2.jpeg";
+import star3 from "../assets/images/stars/star3.jpeg";
+import starVideo from "../assets/images/stars/starVideo.mp4";
 
 
 
@@ -30,7 +34,7 @@ const projects = [
   ,
   {
     title: "Stars",
-    images: [DandidoImg1, DandidoImg2, DandidoImg3, DandidoImg4],
+    images: [star1, star2, star3, starVideo ],
     description: "A movies app used with API developed with React Native.",
     link: "https://Sivan979.github.io/starss/"
   },
@@ -59,9 +63,14 @@ const portfolio = () => {
           <div className={Styles.product}>
             <p className={Styles.title}>{project.title}</p>
             <div className={Styles.imgContainer}>
-              {project.images.map((img, index) =>(
-                <img key={index} className={Styles.img} src={img} alt="product image" />
-              ))}
+              {project.images.map((media, index) => {
+                const isVideo = media.endsWith('.mp4') || media.endsWith('.mov');
+                return isVideo ? (
+                  <video key={index} className={Styles.img} src={media} controls autoPlay loop muted />
+                ) : (
+                  <img key={index} className={Styles.img} src={media} alt="project media" />
+                );
+              })}
             </div>
             <p className={Styles.description}>{project.description}</p>
             <a className={Styles.link} href={project.link} target="_blank" rel="noopener noreferrer"> view project</a>
