@@ -11,6 +11,13 @@ import touchdown2 from "../assets/images/touchdown/touchdown2.png";
 import touchdown3 from "../assets/images/touchdown/touchdown3.png";
 import touchdown4 from "../assets/images/touchdown/touchdown4.png";
 
+import memory1 from "../assets/images/memory/memory1.png";
+import memory2 from "../assets/images/memory/memory2.png";
+import memory3 from "../assets/images/memory/memory3.png";
+import memory4 from "../assets/images/memory/memory4.png";
+
+
+
 
 
 const projects = [
@@ -35,9 +42,9 @@ const projects = [
   },
   {
     title: "Memory Game",
-    images: [DandidoImg1, DandidoImg2, DandidoImg3, DandidoImg4],
-    description: "A fun memory card game built with HTML, CSS, and JavaScript.",
-    link: "https://github.com/@sivan979/memory-game"
+    images: [memory1, memory2, memory3, memory4],
+    description: "A fun memory card game developed using HTML, Javascript and CSS. it is a game where you have 11 lives to win the game before you lose.",
+    link: "https://sivan979.github.io/memory-game/"
   }
 ];
 
