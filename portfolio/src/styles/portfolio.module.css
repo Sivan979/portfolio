@@ -2,3 +2,82 @@
     background-color: antiquewhite;
     min-height: 100vh;
 }
+.topDescription{
+    text-align: center;
+    margin-top: 100px;
+    font: bold 40px arial;
+    text-decoration: underline;
+}
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-bottom: 300px;
+    padding-top: 100px;
+    align-items: center;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    width: 500px; /* or any width you prefer */
+    max-width: 100%; /* makes it responsive */
+    margin: 0 auto;  /* center it horizontally */
+}
+.title{
+    font: bold 31px arial;
+}
+.imgContainer{
+    box-shadow: 1px 3px 10px black; 
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory; /* Enables scroll snapping */
+    scroll-behavior:smooth; /* Smooth scrolling */
+    gap: 10px; /* Optional: space between images */
+}
+.imgContainer::-webkit-scrollbar {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 9px;
+    background-color: rgb(67, 109, 95);
+    overflow: hidden;
+}
+
+.imgContainer::-webkit-scrollbar-thumb {
+    background-color: rgb(115, 254, 208);
+    border-radius: 20px;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    flex-shrink: 0; /* Prevents images from shrinking */
+    scroll-snap-align: center; /* Center align for each image on scroll */
+}
+.description{
+    font: 500 18px arial;
+    text-align: center;
+    max-width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.link{
+    color: rgb(255, 36, 36);
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
