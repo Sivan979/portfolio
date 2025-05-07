@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(82, 82, 82);
+    background-color: rgb(68, 2, 2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,20 +13,20 @@
 .name{
     color:aliceblue;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 29px;
     font-family: roboto,arial; 
 }
 .dollar{
-    height: 35px;
+    height: 38px;
 }
 .sectionContainer{
-    margin-right: 15%;
+    margin-right: 11%;
     display: flex;
-    gap: 45px;
+    gap: 30px;
 }
 .section{
     color:aliceblue;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 19px;
     font-family: roboto,arial;
 }
