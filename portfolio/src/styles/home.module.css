@@ -1,5 +1,5 @@
 .container{
-    background-color: antiquewhite;  
+    background-color: rgb(255, 211, 123);  
     min-height: 100vh;
 }
 .homeContainer{
@@ -8,14 +8,32 @@
 }
 .leftSection{
     display: flex;
-    padding-top: 150px;
+    padding-top: 100px;
     justify-content: center;
 
 }
 .rightSection{
-    padding-top: 150px;
+    padding-top: 120px;
+}
+.rightSection h1{
+    font-size: 55px;
 }
 .intro{
     padding-top: 10px;
-    padding-right: 220px;
+    padding-right: 140px;
+    font-size: 18px;
+}
+.profileImg{
+    border-radius: 50%;
+    height: 210px;
+}
+.icons{
+    height: 80px;
+}
+.iconContainer{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
