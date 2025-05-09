@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../components/header';
 import Styles from '../styles/portfolio.module.css';
+import ProjectCarousel from '../components/ProjectCarousel';
+
 import DandidoImg1 from '../assets/images/dandido/dandido1.png';
 import DandidoImg2 from '../assets/images/dandido/dandido2.png';
 import DandidoImg3 from '../assets/images/dandido/dandido3.png';
@@ -52,31 +54,31 @@ const projects = [
   }
 ];
 
+
+
+
 const portfolio = () => {
   return (
     <div className={Styles.container}>
       <Header />
 
-      <p className={Styles.topDescription}>my projects so far</p>
+      <p className={Styles.topDescription}>My projects so far</p>
+
       <div className={Styles.productContainer}>
-        {projects.map( (project, index) => (
+        {projects.map( (project) => (
           <div className={Styles.product}>
             <p className={Styles.title}>{project.title}</p>
-            <div className={Styles.imgContainer}>
-              {project.images.map((media, index) => {
-                const isVideo = media.endsWith('.mp4') || media.endsWith('.mov');
-                return isVideo ? (
-                  <video key={index} className={Styles.img} src={media} controls autoPlay loop muted />
-                ) : (
-                  <img key={index} className={Styles.img} src={media} alt="project media" />
-                );
-              })}
-            </div>
+            
+            
+
+            <ProjectCarousel images={project.images} />
+
             <p className={Styles.description}>{project.description}</p>
             <a className={Styles.link} href={project.link} target="_blank" rel="noopener noreferrer"> view project</a>
           </div>
         ))}
       </div>
+
 
     </div>
   )
