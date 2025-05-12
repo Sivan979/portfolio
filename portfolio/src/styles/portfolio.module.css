@@ -1,14 +1,14 @@
 .container{
-    background-color: rgb(255, 211, 123);  
+    background-color: rgb(182, 160, 117);
     min-height: 100vh;
 }
 .topDescription{
     text-align: center;
-    margin: 100px auto 0;           /* top 100px, left+right auto = center */
+    margin: 80px auto 0;           /* top 100px, left+right auto = center */
     font: bold 45px arial;
-    border-bottom: 4px solid rgb(50, 50, 50);
+    border-bottom: 4px solid rgb(255, 255, 255);
     padding-bottom: 5px;
-    width: 400px;
+    width: 330px;
 }
 .productContainer{
     display: flex;
@@ -29,7 +29,7 @@
     margin: 0 auto;  /* center it horizontally */
 }
 .title{
-    font: bold 31px arial;
+    font: bold 39px arial;
 }
 .imgContainer{
     box-shadow: 0px 5px 15px 1px black; 
@@ -78,13 +78,14 @@
     overflow-wrap: break-word;
 }
 .link{
-    color: rgb(255, 36, 36);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: black;
+    background-color: rgb(247, 247, 247);
     padding: 10px 20px;
     border-radius: 100%;
     display: inline-block;
     margin: 0 auto;
+    font: 600 13px roboto, arial;
 }
 
 

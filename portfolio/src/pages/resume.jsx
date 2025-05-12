@@ -23,34 +23,33 @@ const resume = () => {
             <div className={Styles.contactInfoContainer}>
               <div className={Styles.phoneContainer}>
                 <img className={Styles.icons} src={phone} alt="phone" />
-                <p>0245717</p>
+                <p>0642128717</p>
               </div>
               <div className={Styles.emailContainer}>
                 <img className={Styles.icons} src={email} alt="email" />
-                <p>sisicnan7@gmail.com</p>
+                <p>Sivanhannan7@gmail.com</p>
               </div>
             </div>
           </div>
 
           <div className={Styles.skillsContainer}>
-            <p className={Styles.sectionTxt}>skills</p>
+            <p className={Styles.sectionTxt}>Vaardigheden</p>
             <ul className={Styles.list}>
-              <li>Teamwork</li>
-              <li>Time Management</li>
-              <li>Effective Communication</li>
-              <li>Critical Thinking</li>
-              <li>Problem Solver</li>
-              <li>Time Mangement</li>
+              <li>Teamwerk</li>
+              <li>Timemanagement</li>
+              <li>Effectieve communicatie</li>
+              <li>Kritisch denken</li>
+              <li>Probleemoplosser</li>
             </ul>
           </div>
 
           <div className={Styles.languagesContainer}>
-            <p className={Styles.sectionTxt}>languages</p>
+            <p className={Styles.sectionTxt}>Talen</p>
             <ul className={Styles.list}>
-              <li>English (B1-B2)</li>
-              <li>dutch (B1-B2)</li>
-              <li>kurdish (Moedertaal)</li>
-              <li>arabic (Fluent)</li>
+              <li>Engels (B1–B2)</li>
+              <li>Nederlands (B1–B2)</li>
+              <li>Koerdisch (moedertaal)</li>
+              <li>Arabisch (vloeiend)</li>
             </ul>
           </div>
     
@@ -67,7 +66,7 @@ const resume = () => {
           <div className={Styles.profileContainer}>
             <p className={Styles.rightSectionTxt}>Profiel</p>
             <p className={Styles.text}>
-              Mijn naam is Shon Lala, ik ben 27 jaar oud en volg momenteel de opleiding Software Developer op MBO niveau 4 aan het Deltion College in Amsterdam. 
+              Mijn naam is Sivan Hannan, ik ben 21 jaar oud en volg momenteel de opleiding Software Developer op MBO niveau 4 aan het Deltion College in Zwolle. 
               Eerder heb ik de opleiding Medewerker ICT (MBO niveau 2) succesvol afgerond,
               eveneens aan het Deltion College.
               Tijdens deze opleiding heb ik 800 uur stage gelopen als servicedeskmedewerker bij de ICT-afdeling van het Deltion College.
@@ -77,16 +76,26 @@ const resume = () => {
           </div>
 
           <div className={Styles.educationContainer}>
-            <p className={Styles.rightSectionTxt}>Edication</p>
+            <p className={Styles.rightSectionTxt}>Onderwijs</p>
 
             <div className={Styles.educationSectionContainer}>
               <div className={Styles.sectionTitleContainer}>
-                <p className={Styles.title}>Taal school</p>
-                <p className={Styles.timeline}>2019 &ndash; 2020 (augustus)</p>
+                <p className={Styles.title}>Software Developer</p>
+                <p className={Styles.timeline}>2024 tot heden</p>
               </div>
               <p className={Styles.text}>
-                Eerst heb ik naar de taal school gegaan om Nederlands te leren,
-                het duurt ongeveer 1.5 jaar totdat ik de taal goed heb geleerd.
+                Momeenteel ben ik bezig met Software Developer opleiding.
+              </p>
+            </div>
+
+            <div className={Styles.educationSectionContainer}>
+              <div className={Styles.sectionTitleContainer}>
+                <p className={Styles.title}>ICT Medewerker</p>
+                <p className={Styles.timeline}>2022 &ndash; 2024</p>
+              </div>
+              <p className={Styles.text}>
+                In 2020 begon ik met de ICT Medewerker oplieding in Deltion Colleage. 
+                Toen vond ik programming heel leuk wilde ik een kareer van maken.
               </p>
             </div>
 
@@ -99,32 +108,22 @@ const resume = () => {
                 Na de taalschool heb ik naar de Windishiem gegaan in Zwolle om voorbrieding jaar VAVO te doen.
               </p>
             </div>
-            
+
             <div className={Styles.educationSectionContainer}>
               <div className={Styles.sectionTitleContainer}>
-                <p className={Styles.title}>ICT Medewerker</p>
-                <p className={Styles.timeline}>2022 &ndash; 2024</p>
+                <p className={Styles.title}>Taalschool</p>
+                <p className={Styles.timeline}>2019 &ndash; 2020 (augustus)</p>
               </div>
               <p className={Styles.text}>
-                In 2020 begon ik met de ICT Medewerker oplieding in Deltion Colleage. 
-                Toen vond ik programming heel leuk wilde ik een kareer van maken.
-              </p>
-            </div>
-            
-            <div className={Styles.educationSectionContainer}>
-              <div className={Styles.sectionTitleContainer}>
-                <p className={Styles.title}>Software Developer</p>
-                <p className={Styles.timeline}>2024 tot heden</p>
-              </div>
-              <p className={Styles.text}>
-                Na het afronden van de ICT Medewerker oplieding begon ik met te programeren.
+                Eerst heb ik naar de taal school gegaan om Nederlands te leren,
+                het duurt ongeveer 1.5 jaar totdat ik de taal goed heb geleerd.
               </p>
             </div>
     
           </div>
 
           <div className={Styles.workContainer}>
-            <p className={Styles.rightSectionTxt}>Work</p>
+            <p className={Styles.rightSectionTxt}>Werk</p>
             <p className={Styles.text}>
               Tijdens mijn stage van zes maanden bij het Deltion College heb ik verschillende taken uitgevoerd.
               De eerste vijf maanden werkte ik vooral met het systeem Topdesk,

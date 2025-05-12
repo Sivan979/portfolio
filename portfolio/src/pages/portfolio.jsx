@@ -30,26 +30,26 @@ const projects = [
   {
     title: "DanDido",
     images: [DandidoImg1, DandidoImg2, DandidoImg3, DandidoImg4],
-    description: "A shoe app where you can shop for various brands of shoes in one place. it was developed using HTML, Javascript and CSS.",
+    description: "Een schoenen-app waarmee je verschillende schoenenmerken op één plek kunt shoppen. De app is ontwikkeld met behulp van HTML, Javascript en CSS.",
     link: "https://sivan979.github.io/Dandido/"
   },
   ,
   {
     title: "Stars",
     images: [star1, star2, star3, starVideo ],
-    description: "A movies app used with API developed with React Native.",
+    description: "Een film-app die wordt gebruikt met een API ontwikkeld met React Native.",
     link: "https://Sivan979.github.io/starss/"
   },
   {
     title: "Touchdown Game",
     images: [touchdown1,touchdown2,touchdown3,touchdown4],
-    description: "a game where you can double or triple your money!",
+    description: "Een gokspel waarbij je je geld kunt verdrievoudigen of al je geld kunt verliezen",
     link: "https://sivan979.github.io/TouchDown-game/"
   },
   {
     title: "Memory Game",
     images: [memory1, memory2, memory3, memory4],
-    description: "A fun memory card game developed using HTML, Javascript and CSS. it is a game where you have 11 lives to win the game before you lose.",
+    description: "Een leuk geheugenkaartspel ontwikkeld met behulp van HTML, Javascript en CSS. Het is een spel waarbij je 11 levens hebt om te winnen voordat je verliest.",
     link: "https://sivan979.github.io/memory-game/"
   }
 ];
@@ -62,7 +62,7 @@ const portfolio = () => {
     <div className={Styles.container}>
       <Header />
 
-      <p className={Styles.topDescription}>My projects so far</p>
+      <p className={Styles.topDescription}>Mijn Projecten</p>
 
       <div className={Styles.productContainer}>
         {projects.map( (project) => (
@@ -74,7 +74,7 @@ const portfolio = () => {
             <ProjectCarousel images={project.images} />
 
             <p className={Styles.description}>{project.description}</p>
-            <a className={Styles.link} href={project.link} target="_blank" rel="noopener noreferrer"> view project</a>
+            <a className={Styles.link} href={project.link} target="_blank" rel="noopener noreferrer"> Bekijk project</a>
           </div>
         ))}
       </div>
