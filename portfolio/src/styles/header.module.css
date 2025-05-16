@@ -30,3 +30,6 @@
     font-size: 19px;
     font-family: roboto,arial;
 }
+.active {
+    border-bottom: 2px solid white;
+}

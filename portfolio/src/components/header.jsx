@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Styles from '../styles/header.module.css';
 import Dollar from '../assets/dollar-icon.png'
+import { NavLink } from 'react-router-dom';
+
 
 const header = () => {
   return (
@@ -12,11 +14,11 @@ const header = () => {
           <a className={Styles.name} href="">Sivan Hannan </a>
         </div>
       
-        <div className={Styles.sectionContainer}>
-          <Link to="/home" className={Styles.section}>Home</Link>
-          <Link to="/portfolio" className={Styles.section}>Portfolio</Link>
-          <Link to="/resume" className={Styles.section}>Resume</Link>
-        </div>
+        <nav className={Styles.sectionContainer}>
+          <NavLink  to="/home" className={({ isActive }) => isActive ? `${Styles.section} ${Styles.active}` : `${Styles.section}`}>Home</NavLink>
+          <NavLink  to="/portfolio" className={({ isActive }) => isActive ? `${Styles.section} ${Styles.active}` : `${Styles.section}`}>Portfolio</NavLink>
+          <NavLink  to="/resume" className={({ isActive }) => isActive ? `${Styles.section} ${Styles.active}` : `${Styles.section}`}>Resume</NavLink>
+        </nav>
       </div>
     </>
   )
