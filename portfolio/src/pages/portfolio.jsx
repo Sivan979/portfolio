@@ -23,9 +23,6 @@ import star2 from "../assets/images/stars/star2.jpeg";
 import star3 from "../assets/images/stars/star3.jpeg";
 import starVideo from "../assets/images/stars/starVideo.mp4";
 
-
-
-
 const projects = [
   {
     title: "DanDido",
@@ -54,9 +51,6 @@ const projects = [
   }
 ];
 
-
-
-
 const portfolio = () => {
   return (
     <div className={Styles.container}>
@@ -69,12 +63,11 @@ const portfolio = () => {
           <div className={Styles.product}>
             <p className={Styles.title}>{project.title}</p>
             
-            
-
             <ProjectCarousel images={project.images} />
 
             <p className={Styles.description}>{project.description}</p>
             <a className={Styles.link} href={project.link} target="_blank" rel="noopener noreferrer"> Bekijk project</a>
+            <hr className={Styles.divider} />
           </div>
         ))}
       </div>

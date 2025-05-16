@@ -4,33 +4,45 @@ import Styles from '../styles/portfolio.module.css';
 
 function ProjectCarousel({ images }) {
   const [index, setIndex] = useState(0);
-  const prev = () => setIndex(i => Math.max(i - 1, 0));
-  const next = () => setIndex(i => Math.min(i + 1, images.length - 1));
+
+  const prev = () => {
+    setIndex(i => {
+      // if we’re at the first image, wrap to the last
+      if (i === 0) return images.length - 1;
+      return i - 1;
+    });
+  }
+
+  const next = () => {
+    setIndex(i => {
+      //if we’re at the last image, wrap back to 0
+      if(i=== images.length -1) return 0;
+      return i + 1;
+    })
+  }
 
   return (
     <div className={Styles.imgContainer}>
-      <div
-        className={Styles.slides}
-        style={{
-          transform: `translateX(-${index * 100}%)`,
-          width: `${images.length * 100}%`
-        }}
-      >
-        {images.map((media, i) => {
-          
+
+      <button style={{left:0}} onClick={prev} className={Styles.btn}>&#11104;</button>
+
+      <div className={Styles.frame}>
+        {(() => {
+          const media = images[index];
           const isVideo = media.endsWith('.mp4') || media.endsWith('.mov');
 
-          return isVideo ? (
-            <video key={i} className={Styles.img} src={media} controls autoPlay loop muted />
-          ) : (
-            <img key={i} className={Styles.img} src={media} alt="project media"/>
-          );
-        })}
+          return isVideo
+            ? (
+              <video className={Styles.img} src={media} controls autoPlay loop muted />
+            )
+            : (
+              <img className={Styles.img} src={media} alt="project media" />
+            );
+        })()}
       </div>
 
-      <button onClick={prev} disabled={index === 0} className={Styles.btn}>&#11104;</button>
+      <button style={{right:0}} onClick={next} className={Styles.btn}>&#11106;</button>
 
-      <button onClick={next} disabled={index === images.length - 1} className={Styles.btn}>&#11106;</button>
     </div>
   );
 }
