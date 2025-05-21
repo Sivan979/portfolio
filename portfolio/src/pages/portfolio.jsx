@@ -35,7 +35,6 @@ const projects = [
     title: "Stars",
     images: [star1, star2, star3, starVideo ],
     description: "Een film-app die wordt gebruikt met een API ontwikkeld met React Native.",
-    link: "https://Sivan979.github.io/starss/"
   },
   {
     title: "Touchdown Game",
@@ -59,15 +58,21 @@ const portfolio = () => {
       <p className={Styles.topDescription}>Mijn Projecten</p>
 
       <div className={Styles.productContainer}>
-        {projects.map( (project) => (
+        {projects.map( (project, idx) => (
           <div className={Styles.product}>
             <p className={Styles.title}>{project.title}</p>
             
             <ProjectCarousel images={project.images} />
 
             <p className={Styles.description}>{project.description}</p>
-            <a className={Styles.link} href={project.link} target="_blank" rel="noopener noreferrer"> Bekijk project</a>
-            <hr className={Styles.divider} />
+            {project.link && (
+              <>
+                <a className={Styles.link} href={project.link} target="_blank" rel="noopener noreferrer"> Bekijk project</a>
+              </>
+            )}
+            {idx < projects.length - 1 && (
+              <hr className={Styles.divider} />
+            )}
           </div>
         ))}
       </div>

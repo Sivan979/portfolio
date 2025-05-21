@@ -16,9 +16,7 @@
 }
 .sectionTxt{
     color: white;
-    font-family: arial;
-    font-weight: 600;
-    font-size: 21px;
+    font: 600 21px arial;
     margin-left: 23%;
     border-bottom: 3.5px solid white;  
     padding-bottom: 6px;       /* space between text and border */
@@ -74,7 +72,7 @@
     margin-left: 210px;
     font: 500 35px black;
     border-bottom: 3.5px solid white;  
-    width: 31%;
+    width: 35%;
 }
 .rightSectionTxt{
     font: bold 32px black;
@@ -91,16 +89,16 @@
     position: absolute;
     top: 62px;
     bottom: 0;
-    left: 47px;             /* adjust horizontal position */
-    width: 2px;             /* thickness of the line */
-    background: #3f3f3f;       /* line color */
+    left: 47px;
+    width: 2px;
+    background: #3f3f3f;
 }
 .educationSectionContainer::before {
     content: "";
     position: absolute;
-    left: 43.5px;           /* centers the dot on the line */
-    top: 15px;           /* tweak to vertically align with the heading */
-    width: 9px;         /* dot size */
+    left: 43.5px;
+    top: 15px;
+    width: 9px;
     height: 9px;
     border-radius: 50%;
     background: #333333;       /* dot color */

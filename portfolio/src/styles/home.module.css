@@ -8,12 +8,11 @@
 }
 .leftSection{
     display: flex;
-    padding-top: 100px;
+    padding-top: 16%;
     justify-content: center;
-
 }
 .rightSection{
-    padding-top: 120px;
+    padding-top: 16%;
 }
 .rightSection h1{
     font-size: 55px;
@@ -35,5 +34,5 @@
     gap: 40px;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 5%;
 }

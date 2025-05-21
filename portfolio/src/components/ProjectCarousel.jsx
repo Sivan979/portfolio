@@ -22,9 +22,10 @@ function ProjectCarousel({ images }) {
   }
 
   return (
-    <div className={Styles.imgContainer}>
+      
+    <div className={Styles.frameOuter}>
 
-      <button style={{left:0}} onClick={prev} className={Styles.btn}>&#11104;</button>
+      <button  onClick={prev} className={Styles.btn}>&#11104;</button>
 
       <div className={Styles.frame}>
         {(() => {
@@ -41,9 +42,10 @@ function ProjectCarousel({ images }) {
         })()}
       </div>
 
-      <button style={{right:0}} onClick={next} className={Styles.btn}>&#11106;</button>
+      <button style={{}} onClick={next} className={`${Styles.btn} ${Styles.btnRight}`}>&#11106;</button>
 
     </div>
+
   );
 }
 
