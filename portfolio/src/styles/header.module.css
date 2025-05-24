@@ -40,3 +40,56 @@
 .active {
   border-bottom-color: white;
 }
+
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .name{
+        font-size: 22px;
+    } 
+    .dollar{
+        height: 21px;
+    }
+    .sectionContainer{
+        margin-right: 11%;
+        gap: 15px;
+    }
+    .section{
+        font-size: 18px;
+    } 
+}
+
+
+@media (max-width: 768px) {
+   .name{
+        font-size: 16px;
+    } 
+    .dollar{
+        height: 20px;
+    }
+    .sectionContainer{
+        margin-right: 11%;
+        gap: 15px;
+    }
+    .section{
+        font-size: 15px;
+    } 
+}
+
+
+
+@media (max-width: 480px){
+   .name{
+        font-size: 15px;
+    } 
+    .dollar{
+        height: 17px;
+    }
+    .sectionContainer{
+        margin-right: 11%;
+        gap: 14px;
+    }
+    .section{
+        font-size: 12px;
+    }
+}

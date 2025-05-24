@@ -16,12 +16,13 @@
     padding-top: 16%;
 }
 .rightSection h1{
-    font-size: 55px;
+    font-size: 4.8vw;
 }
 .intro{
     padding-top: 10px;
     padding-right: 140px;
-    font-size: 18px;
+    /* never smaller, fluid from ..vw up to ..px max */
+    font-size: clamp(10px, 1.46vw, 48px);
 }
 .profileImg{
     border-radius: 50%;
@@ -36,4 +37,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+}
+
+
+@media (max-width: 480px){
+    .icons{
+        height: 40px;
+    }
 }
