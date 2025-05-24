@@ -1,6 +1,7 @@
 .container{
     background-color: rgb(182, 160, 117);
     min-height: 100vh;
+    padding-top: 70px;
 }
 .homeContainer{
     display: grid;
