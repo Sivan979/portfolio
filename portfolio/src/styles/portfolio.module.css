@@ -105,3 +105,109 @@
   width: 100%;
   margin: 70px 0px;
 }
+
+
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .topDescription{
+        font: bold 33px arial;
+        border-bottom: 3px solid rgb(255, 255, 255);
+        width: 250px;
+    }
+    .title{
+        font: bold 32px arial;
+    }
+    .frame {
+        border-radius: 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        max-width: 650px;
+    }
+    .img{
+        height: auto;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 4px 8px;
+    }  
+    .description{
+        font: 500 19px arial;
+    }
+    .link{
+        padding: 7px 15px;
+        font: 600 16px roboto, arial;
+        transition: all 150ms ease-in-out;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .topDescription{
+        font: bold 29px arial;
+        border-bottom: 3px solid rgb(255, 255, 255);
+        width: 200px;
+    }
+    .title{
+        font: bold 29px arial;
+    }
+    .frame {
+        border-radius: 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        max-width: 450px;
+    }
+    .img{
+        height: auto;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 4px 8px;
+    }  
+    .description{
+        font: 500 17px arial;
+    }
+    .link{
+        padding: 7px 15px;
+        font: 600 16px roboto, arial;
+        transition: all 150ms ease-in-out;
+    }
+}
+
+
+
+@media (max-width: 480px){
+    .topDescription{
+        font: bold 25px arial;
+        border-bottom: 3px solid rgb(255, 255, 255);
+        width: 200px;
+    }
+    .title{
+        font: bold 25px arial;
+    }
+    .frame {
+        border-radius: 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        max-width: 280px;
+    }
+    .img{
+        height: auto;
+    }
+    .btn {
+        font-size: 1rem;
+        padding: 4px 8px;
+    }  
+    .description{
+        font: 500 14px arial;
+    }
+    .link{
+        padding: 7px 15px;
+        font: 600 12px roboto, arial;
+        transition: all 150ms ease-in-out;
+    }
+    .divider {
+        margin: 50px 0px;
+    }
+   
+}
