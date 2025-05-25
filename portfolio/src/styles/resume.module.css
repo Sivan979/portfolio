@@ -129,3 +129,162 @@
 .educationSectionContainer{
     position: relative;
 }
+
+
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .container{
+        display: grid;
+        grid-template-rows: auto 1fr;  /* header height = auto, content = rest */
+        height: 115vh;
+        margin: 0;
+        padding-top: 70px;
+    }
+    .sectionTxt{
+        font: 600 21px arial;
+        margin-left: 10%;
+        width: 150px;
+    }
+    .contactInfoContainer{
+        padding: 20px 0 0 10px;
+        font-size: 14px;
+    }
+    .list{
+        font-size: 16px;
+        padding: 20px 0px 0px 23px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .infoContainer{
+        grid-template-columns: 37% 1fr;
+    }
+    .sectionTxt{
+        font: 600 21px arial;
+        margin-left: 10%;
+        width: 150px;
+    }
+    .contactInfoContainer{
+        padding: 20px 0 0 10px;
+        font-size: 14px;
+    }
+    .list{
+        font-size: 16px;
+        padding: 20px 0px 0px 23px;
+    }
+
+
+    .name{
+        padding: 80px 0 0 80px;
+        font: bold 34px black;
+    }
+    .job{
+        padding: 3px 0 6px 0px;
+        margin-left: 80px;
+        font: 500 30px black;
+        width: 55%;
+    }
+    .rightSectionTxt{
+        font: bold 23px black;
+        padding: 0 0 6px 0px;
+        width: 85%;
+        margin-left: 8%;
+    }
+    .educationContainer::before {                     /* the vertical line */
+        top: 65px;
+        bottom: 0;
+        left: 17px;
+        width: 2px;
+        background: #3f3f3f;
+    }
+    .educationSectionContainer::before {
+        left: 14px;
+        top: 20px;
+        width: 9px;
+        height: 9px;
+    }
+    .text{
+        font: 500 15px arial;
+        padding: 0 30px;
+        margin-top: 10px;
+    }
+    .title{
+        font: 600 17.5px arial;
+        padding: 0 74px;
+        margin-top: 10px;
+    }
+    .timeline{
+        font: 600 15px arial;
+        padding: 0 24px;
+        margin-top: 10px;
+    }
+}
+
+
+
+@media (max-width: 480px){
+    .infoContainer{
+        grid-template-columns: 37% 1fr;
+    }
+    .sectionTxt{
+        font: 600 21px arial;
+        margin-left: 10%;
+        width: 150px;
+    }
+    .contactInfoContainer{
+        padding: 20px 0 0 10px;
+        font-size: 14px;
+    }
+    .list{
+        font-size: 16px;
+        padding: 20px 0px 0px 23px;
+    }
+
+
+    .name{
+        padding: 80px 0 0 80px;
+        font: bold 34px black;
+    }
+    .job{
+        padding: 3px 0 6px 0px;
+        margin-left: 80px;
+        font: 500 30px black;
+        width: 55%;
+    }
+    .rightSectionTxt{
+        font: bold 23px black;
+        padding: 0 0 6px 0px;
+        width: 85%;
+        margin-left: 8%;
+    }
+    .educationContainer::before {                     /* the vertical line */
+        top: 65px;
+        bottom: 0;
+        left: 17px;
+        width: 2px;
+        background: #3f3f3f;
+    }
+    .educationSectionContainer::before {
+        left: 14px;
+        top: 20px;
+        width: 9px;
+        height: 9px;
+    }
+    .text{
+        font: 500 15px arial;
+        padding: 0 30px;
+        margin-top: 10px;
+    }
+    .title{
+        font: 600 17.5px arial;
+        padding: 0 74px;
+        margin-top: 10px;
+    }
+    .timeline{
+        font: 600 15px arial;
+        padding: 0 24px;
+        margin-top: 10px;
+    }
+}
