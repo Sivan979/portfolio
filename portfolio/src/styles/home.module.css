@@ -1,6 +1,6 @@
 .container{
     background-color: rgb(182, 160, 117);
-    min-height: 100vh;
+    min-height: 91vh;
     padding-top: 70px;
 }
 .homeContainer{
@@ -39,9 +39,112 @@
     margin-top: 5%;
 }
 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .container{
+        min-height: 93.1vh;
+    }
+    .homeContainer{
+        padding: 0px 0px 80px 0px;
+    }
+    .leftSection{
+        padding-top: 16%;
+    }
+    .rightSection{
+        padding-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .intro{
+        font-size: 24px;
+        text-align: center;
+        padding: 10px 30px 0px 0px;
+    }
+    .iconContainer{
+        flex-wrap: wrap;
+        padding: 0px 50px 0px 45px;
+        gap: 50px;
+        margin: 0%;
+    }
+    .icons{
+        height: 70px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        min-height: 93.1vh;
+    }
+    .homeContainer{
+        grid-template-columns:  1fr; 
+        padding: 0px 0px 80px 0px;
+    }
+    .leftSection{
+        padding-top: 16%;
+    }
+    .rightSection{
+        padding-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .intro{
+        font-size: 22px;
+        text-align: center;
+        padding: 10px 30px 0px 30px;
+    }
+    .iconContainer{
+        flex-wrap: wrap;
+        padding: 0px 50px 0px 45px;
+        gap: 50px;
+        margin: 0%;
+    }
+    .icons{
+        height: 65px;
+    }
+}
+
 
 @media (max-width: 480px){
+    .container{
+        min-height: 92.5vh;
+        padding-top: 70px;
+    }
+    .homeContainer{
+        grid-template-columns:  1fr; 
+        padding: 0px 0px 80px 0px;
+    }
+    .leftSection{
+        padding-top: 14%;
+    }
+    .rightSection{
+        padding-top: 9%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .rightSection h1{
+        font-size: 30px;
+    }
+    .intro{
+        font-size: 18px;
+        text-align: center;
+        padding: 10px 20px 0px 20px;
+    }
+    .profileImg{
+        height: 150px;
+    }
+    .iconContainer{
+        flex-wrap: wrap;
+        padding: 0px 50px 0px 45px;
+        gap: 50px;
+        margin: 0%;
+    }
     .icons{
-        height: 40px;
+        height: 55px;
     }
 }
