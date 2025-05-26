@@ -1,9 +1,8 @@
-import React from 'react'
 import Styles from '../styles/resume.module.css';
 import Header from '../components/header.jsx';
-import email from '../assets/email.png';
-import phone from '../assets/telephone.png';
-import profileImg from '../assets/profileimage.webp';
+import email from '../assets/icons/email.png';
+import phone from '../assets/icons/telephone.png';
+import profileImg from '../assets/images/profileimage.webp';
 
 
 

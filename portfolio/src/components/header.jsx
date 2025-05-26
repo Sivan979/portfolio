@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Styles from '../styles/header.module.css';
-import Dollar from '../assets/dollar-icon.png'
+import Dollar from '../assets/icons/dollar-icon.png'
 import { NavLink } from 'react-router-dom';
 
 

@@ -1,12 +1,11 @@
-import React from 'react';
 import Header from '../components/header';
 import Styles from '../styles/home.module.css';
-import profileImg from '../assets/profileimage.webp';
-import css from '../assets/css.png';
-import html from '../assets/html.png';
-import javascript from '../assets/java-script.png';
-import react from '../assets/react.png';
-import reactNative from '../assets/react-native.png';
+import profileImg from '../assets/images/profileimage.webp';
+import css from '../assets/icons/css.png';
+import html from '../assets/icons/html.png';
+import javascript from '../assets/icons/java-script.png';
+import react from '../assets/icons/react.png';
+import reactNative from '../assets/icons/react-native.png';
 
 
 const home = () => {

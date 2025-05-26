@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/header';
 import Styles from '../styles/portfolio.module.css';
 import ProjectCarousel from '../components/ProjectCarousel';
