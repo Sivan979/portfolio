@@ -1,6 +1,6 @@
 import Header from '../components/header';
 import Styles from '../styles/home.module.css';
-import profileImg from '../assets/images/profileimage.webp';
+import profileImg from '../assets/images/profileimage.jpg';
 import css from '../assets/icons/css.png';
 import html from '../assets/icons/html.png';
 import javascript from '../assets/icons/java-script.png';
@@ -22,11 +22,9 @@ const home = () => {
         <div className={Styles.rightSection}>
           <h1>Sivan Hannan</h1>
           <p className={Styles.intro}>
-            Hoi, welkom op mijn pagina! Ik ben Sivan Hannan 21 jaar oud,
-            een enthousiaste en gedreven student Software Developer aan het Deltion College in Zwolle.
-            Programmeren vind ik enorm leuk en interessant,
-            vooral het bouwen van interactieve websites en mobiele apps met HTML, CSS, JavaScript, React en React Native.
-            Mijn doel is om constant te groeien en nieuwe technologieën en tools te ontdekken om mijn vaardigheden verder te ontwikkelen.
+            Hoi en welkom op mijn pagina! Ik ben Sivan Hannan, 21 jaar en ik volg de opleiding Software Developer aan het Deltion College in Zwolle. 
+            Ik ben leergierig, gedreven en enthousiast over het bouwen van interactieve websites en mobiele apps met HTML, CSS, JavaScript, React en React Native. 
+            Mijn passie ligt in het ontdekken van nieuwe technologieën en tools om mijn vaardigheden steeds verder te verbeteren en te groeien als software developer.
           </p>
         </div>
       </div>

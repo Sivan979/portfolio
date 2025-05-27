@@ -2,7 +2,7 @@ import Styles from '../styles/resume.module.css';
 import Header from '../components/header.jsx';
 import email from '../assets/icons/email.png';
 import phone from '../assets/icons/telephone.png';
-import profileImg from '../assets/images/profileimage.webp';
+import profileImg from '../assets/images/profileimage.jpg';
 
 
 
@@ -45,8 +45,8 @@ const resume = () => {
           <div className={Styles.languagesContainer}>
             <p className={Styles.sectionTxt}>Talen</p>
             <ul className={Styles.list}>
+              <li>Nederlands (B2)</li>
               <li>Engels (B1–B2)</li>
-              <li>Nederlands (B1–B2)</li>
               <li>Koerdisch (moedertaal)</li>
               <li>Arabisch (vloeiend)</li>
             </ul>
@@ -65,7 +65,7 @@ const resume = () => {
           <div className={Styles.profileContainer}>
             <p className={Styles.rightSectionTxt}>Profiel</p>
             <p className={Styles.text}>
-              Mijn naam is Sivan Hannan, ik ben 21 jaar oud en volg momenteel de opleiding Software Developer op MBO niveau 4 aan het Deltion College in Zwolle. 
+              Mijn naam is Sivan Hannan, ik ben 21 jaar oud en volg momenteel de opleiding <strong>Software Developer</strong> op MBO niveau 4 aan het Deltion College in Zwolle. 
               Eerder heb ik de opleiding Medewerker ICT (MBO niveau 2) succesvol afgerond,
               eveneens aan het Deltion College.
               Tijdens deze opleiding heb ik 800 uur stage gelopen als servicedeskmedewerker bij de ICT-afdeling van het Deltion College.
@@ -83,7 +83,8 @@ const resume = () => {
                 <p className={Styles.timeline}>2024 tot heden</p>
               </div>
               <p className={Styles.text}>
-                Momeenteel ben ik bezig met Software Developer opleiding.
+                Ik volg de opleiding Software Developer, waar ik leer werken met talen als HTML, CSS en JavaScript en frameworks zoals React en React Native. 
+                In mijn projecten bouw ik zelf de onderdelen van een website of app en programmeer ik de bijbehorende logica.
               </p>
             </div>
 
@@ -93,8 +94,8 @@ const resume = () => {
                 <p className={Styles.timeline}>2022 &ndash; 2024</p>
               </div>
               <p className={Styles.text}>
-                In 2020 begon ik met de ICT Medewerker oplieding in Deltion Colleage. 
-                Toen vond ik programming heel leuk wilde ik een kareer van maken.
+                Tijdens mijn 800 uur durende stage als servicedeskmedewerker bij de ICT-afdeling beheerde ik gebruikersaccounts, 
+                loste ik hardware- en softwareproblemen op en documenteerde ik de supportprocessen.
               </p>
             </div>
 
@@ -104,7 +105,8 @@ const resume = () => {
                 <p className={Styles.timeline}>2020 &ndash; 2021</p>
               </div>
               <p className={Styles.text}>
-                Na de taalschool heb ik naar de Windishiem gegaan in Zwolle om voorbrieding jaar VAVO te doen.
+                Bij Windesheim in Zwolle heb ik een intensief taal- en studievaardighedenprogramma gevolgd ter voorbereiding op vervolgopleidingen. 
+                Hierbij lag de nadruk op studieplanning en het vergroten van mijn beheersing van de Nederlandse en Engelse taal.
               </p>
             </div>
 
@@ -114,8 +116,8 @@ const resume = () => {
                 <p className={Styles.timeline}>2019 &ndash; 2020 (augustus)</p>
               </div>
               <p className={Styles.text}>
-                Eerst heb ik naar de taal school gegaan om Nederlands te leren,
-                het duurt ongeveer 1.5 jaar totdat ik de taal goed heb geleerd.
+                Ik heb een intensieve taalcursus Nederlands gevolgd, van niveau A1 tot B2, om vlot te kunnen functioneren in studie en werk.
+                Dit heb ik afgerond met een B2-certificaat en goede resultaten.
               </p>
             </div>
     

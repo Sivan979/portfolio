@@ -26,25 +26,25 @@ const projects = [
   {
     title: "DanDido",
     images: [DandidoImg1, DandidoImg2, DandidoImg3, DandidoImg4],
-    description: "Een schoenen-app waarmee je verschillende schoenenmerken op één plek kunt shoppen. De app is ontwikkeld met behulp van HTML, Javascript en CSS.",
+    description: "DanDido is een moderne webapplicatie waar je in één oogopslag de populairste schoenmerken kunt bekijken en direct kunt bestellen. Gemaakt met JavaScript, React, HTML en CSS voor een snelle én responsieve winkelervaring.",
     link: "https://sivan979.github.io/Dandido/"
   },
   ,
   {
     title: "Stars",
     images: [star1, star2, star3, starVideo ],
-    description: "Een film-app die wordt gebruikt met een API ontwikkeld met React Native.",
+    description: "Stars is een mobiele app gebouwd met React Native en de TMDB API. Op de home-pagina vind je de populairste films van dit moment. In de zoek-tab kun je films op titel zoeken. Op de saved-tab beheer je al je opgeslagen films.",
   },
   {
     title: "Touchdown Game",
     images: [touchdown1,touchdown2,touchdown3,touchdown4],
-    description: "Een gokspel waarbij je je geld kunt verdrievoudigen of al je geld kunt verliezen",
+    description: "TouchDown is een gokspel met drie vield­opties: Small, Medium en Big. Je kiest eerst je inzetbedrag. Elk veld heeft een vast aantal kolommen (bijvoorbeeld 5 voor Small, 8 voor Medium en 10 voor Big). In elke kolom zit precies één “guard” verstopt: raak je die, dan ben je je inzet kwijt. Vind je geen guard, dan schuif je door naar de volgende kolom en neemt je winst toe volgens de bijbehorende multiplier. Bereik je de endzone zonder een guard te raken, dan ontvang je de maximale uitbetaling! Gemaakt met JavaScript, HTML en CSS.",
     link: "https://sivan979.github.io/TouchDown-game/"
   },
   {
     title: "Memory Game",
     images: [memory1, memory2, memory3, memory4],
-    description: "Een leuk geheugenkaartspel ontwikkeld met behulp van HTML, Javascript en CSS. Het is een spel waarbij je 11 levens hebt om te winnen voordat je verliest.",
+    description: "Memory Game is een kaart geheugenspel waarin je 11 levens hebt. Bij elke foutieve match verlies je één leven; is je leven op, dan verlies je. Vind je alle paren binnen je beschikbare levens, dan win je het spel! Gemaakt met HTML, JavaScript en CSS.",
     link: "https://sivan979.github.io/memory-game/"
   }
 ];

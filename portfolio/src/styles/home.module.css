@@ -12,6 +12,18 @@
     padding-top: 16%;
     justify-content: center;
 }
+.profileImg{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.899);
+    transition: transform 300ms ease-in-out;
+}
+.profileImg:hover {
+  transform: scale(1.1);
+}
 .rightSection{
     padding-top: 16%;
 }
@@ -23,10 +35,6 @@
     padding-right: 140px;
     /* never smaller, fluid from ..vw up to ..px max */
     font-size: clamp(10px, 1.46vw, 48px);
-}
-.profileImg{
-    border-radius: 50%;
-    height: 210px;
 }
 .icons{
     height: 80px;
