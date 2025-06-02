@@ -1,6 +1,5 @@
 {
-  "homepage": "https://Sivan979.github.io/starss",
-
+  "homepage": "https://Sivan979.github.io/portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.0.0",
