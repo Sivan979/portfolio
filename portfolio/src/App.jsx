@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <Router basename="/starss">
+      <Router basename="/portfolio">
         <Routes>
 
           <Route index element={<Home />} />
